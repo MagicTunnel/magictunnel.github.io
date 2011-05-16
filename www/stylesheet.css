@@ -108,7 +108,7 @@ div#header li a {
 	margin-right: 10px;
 	padding-left: 0px;
 	text-decoration: none;
-	color: #ffbc45;
+	color: #ffffff;
 	-moz-border-radius-topleft: 5px;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topright: 5px;
@@ -143,19 +143,70 @@ div#content-container {
 	width: 800px;
 	padding: 20px 50px;
 	margin: 0 auto;
+	position: relative;
 }
 
 /***********************/
+
+div#punchline {
+    text-align: center;
+    font-family: "Times",serif;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+h1.title {
+    border-bottom: 1px solid #000000;
+}
+
+/* Put a border around all containers for debugging */
+div#content-container div {
+ //border: 1px solid #FF00FF;
+}
+
 div#schema {
+    width: 800px;
+    height: 440px;
+    position: relative;
+    border-bottom: 1px solid #000000;
+}
+
+div#top-schema {
+
+}
+
+div#left-schema {
+    width: 300px;
+    //height: 500px;
+    float:left;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+}
+
+div#left-schema ol{
+padding-left: 20px;
+padding-top: 20px;
+
+}
+
+div#left-schema li{
+padding-bottom: 20px; 
+}
+
+div#main-schema {
     background: transparent url(/media/schema.png) no-repeat scroll left top;
-    width:800px;
+    width:453px;
     height: 500px;
     margin: 0 auto;
     text-align: left;
+    float:left;
     position: relative;
 }
 
-div#schema h3 {
+div#main-schema h3 {
     margin-bottom: 0px;
 }
 
@@ -163,7 +214,7 @@ div#schema-1-pda {
     position:absolute;
     left:220px;
     top:316px;
-    width: 200px;
+    width: 150px;
 }
 
 div#schema-2-ispserver {
