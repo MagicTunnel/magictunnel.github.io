@@ -7,15 +7,12 @@
 </head>
 
 <body>
-<div id="header">
-<div id="header-container">
-<ul>
-<li class="selected"><a href="/index.php"><span>Home</span></a></li>
-<li><a href="download.php"><span>Download</span></a></li>
-<li><a href="faq.php"><span>FAQ</span></a></li>
-</ul>
-</div>
-</div>
+
+<?php 
+$SITE_TAB='home';
+include('header.php');
+?>
+
 
 <div id="content">
    <div id="content-container">
@@ -25,11 +22,11 @@
         </div>
       
      <div id="schema">
-        <div id="top-schema">
+<!--        <div id="top-schema">
         <h1 class="title">How does it work?</h1>
-        </div>
+        </div> -->
      <div id="left-schema">
-   <b><i>It uses DNS tunneling</b></i>.
+   <b><i>MagicTunnel is based on DNS tunneling</b></i>.
 
    The Internet relies on the Domain Name System (DNS) to convert human-understandable addresses 
    like <em>www.magictunnel.net</em> to addresses that the Internet can handle (e.g., <?php echo $_SERVER["SERVER_ADDR"] ?>). Your phone sends DNS queries to a DNS server, which sends in return the corresponding numerical addresses.
