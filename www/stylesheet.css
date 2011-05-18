@@ -231,3 +231,58 @@ div#schema-3-server {
     top:247px;
     width: 150px;
 }
+
+/***********************/
+/* DOWNLOAD SECTION */
+
+div#download {
+   width: 800px;
+#    height: 114px;
+   position: relative;
+//   background: #aaaaaa;
+margin-left:auto;
+margin-right:auto;
+}
+
+div#download-button {
+margin-left:auto;
+margin-right:auto;
+    width: 315px;
+    height: 114px;
+    position: relative;
+//    border-bottom: 1px solid #000000;
+//    border-top: 1px solid #000000;
+//    padding-top: 10px;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+div#download-requirements {
+margin-left:auto;
+margin-right:auto;
+    width: 315px;
+    height: 314px;
+    position: relative;
+}
+
+div#download-requirements h3 {
+  margin-bottom: 0px;
+}
+
+div#version-info {
+    border: 0px;
+    position:absolute;
+    left:115px;
+    top:80px;
+    width: 150px;
+}
+
+div#download-button img {
+    border: 0px;
+}
+
+#download-button:hover {
+	background: #2e419c;
+	color: #000000;
+}

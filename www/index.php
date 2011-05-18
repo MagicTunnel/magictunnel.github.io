@@ -26,7 +26,7 @@ include('header.php');
         <h1 class="title">How does it work?</h1>
         </div> -->
      <div id="left-schema">
-   <b><i>MagicTunnel is based on DNS tunneling</b></i>.
+   <b><i>MagicTunnel uses DNS tunneling</b></i>.
 
    The Internet relies on the Domain Name System (DNS) to convert human-understandable addresses 
    like <em>www.magictunnel.net</em> to addresses that the Internet can handle (e.g., <?php echo $_SERVER["SERVER_ADDR"] ?>). Your phone sends DNS queries to a DNS server, which sends in return the corresponding numerical addresses.

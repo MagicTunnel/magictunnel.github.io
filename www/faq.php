@@ -13,5 +13,11 @@ $SITE_TAB='faq';
 include('header.php');
 ?>
 
+How fast is DNS tunneling?
+
+Can I get rid of my broadband/mobile subscription?
+
+Does MagicTunnel use encryption?
+
 </body>
 </html>
