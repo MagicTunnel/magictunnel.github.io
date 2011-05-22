@@ -127,6 +127,15 @@ div#header li a span {
 	-webkit-border-top-right-radius: 5px;
 }
 
+
+h3 {
+    color: #2e419c;
+}
+
+h1 {
+    color: #2e419c;
+}
+
 /***********************/
 
 div#content {
@@ -170,7 +179,7 @@ div#schema {
     width: 800px;
     height: 400px;
     position: relative;
-    border-bottom: 1px solid #000000;
+   # border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
     padding-top: 10px;
 }
@@ -275,7 +284,7 @@ div#version-info {
     position:absolute;
     left:115px;
     top:80px;
-    width: 150px;
+//    width: 300px;
 }
 
 div#download-button img {
@@ -285,4 +294,16 @@ div#download-button img {
 #download-button:hover {
 	background: #2e419c;
 	color: #000000;
+}
+
+/***********************/
+/* INSTALL SECTION */
+
+ol#list li{
+padding-bottom: 20px; 
+}
+
+div.console {
+padding: 10px;
+font: normal 12px courier,monospace;
 }

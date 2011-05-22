@@ -18,9 +18,9 @@ include('header.php');
 
   <div id="download">
     <div id="download-button">
-      <a href="MagicTunnel.apk"><img src="media/download.png"/></a>
+      <a href="downloads/magictunnel-1.0.0.apk"><img src="media/download.png"/></a>
       <div id="version-info">
-         V1.0.0
+         V1.0.0 for Android 2.2
       </div>
     </div>
     <div id="download-requirements">
@@ -30,7 +30,11 @@ include('header.php');
   to provide transparent connectivity to all applications.
 
       <h3>Source code</h3>
-   MagicTunnel uses a modified <a href="http://code.kryo.se/iodine/">Iodine</a> DNS tunnel client. Source code for the client and the server can be found here. See below for setup instructions.
+   MagicTunnel uses a modified <a href="http://code.kryo.se/iodine/">Iodine</a> DNS tunnel client. Source code for the client and the server can be found <a href="<?php print $IODINE_URL; ?>">here</a>. See below for setup instructions.
+
+    <h3>Installation</h3>
+   <a href="install.php">Install instructions</a> for the client and the server detail how to get DNS tunneling up and running.
+
 
     </div>
 
