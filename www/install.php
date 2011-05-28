@@ -160,7 +160,15 @@ include('header.php');
   start MagicTunnel again.
   </p>
 
-  <p>  If all components are present, you will be taken to the list of
+  <p>
+  If all components are present, you can proceed with the installation
+  by tapping on the corresponding button. During this process, you
+  will be requested to grant root rights for MagicTunnel. You should
+  allow MagicTunnel to get root rights automatically, otherwise
+  installation will fail.
+  </p>
+
+  <p>  Then, you will be taken to the list of
   available tunnels, where you have access to the following features:
   <ul>
     <li>Configuration of an unlimited number of tunnels</li>

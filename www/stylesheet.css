@@ -12,7 +12,7 @@ body {
 	font-weight: normal;
 	background: #ffffff;
 	color: #303030;
-	margin: 0;
+	margin: 0 0 1px;
 	padding: 0;
 	min-height: 100%;
 	text-align: justify;
@@ -68,6 +68,7 @@ div#header ul {
 	padding: 0;
 	overflow: hidden;
 	clear: both;
+	width: 669px;
 }
 div#header li {
 	-x-system-font: none;
@@ -81,6 +82,16 @@ div#header li {
 	font-size: 14px;
 	line-height: normal;
 	padding: 0;
+}
+
+div#header li#donate {
+    position: absolute;
+    right: 0;
+}
+
+div#header li.donate-selected {
+    position: absolute;
+    right: 0;
 }
 
 div#header li a:hover {
@@ -113,6 +124,15 @@ div#header li a {
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topright: 5px;
 	-webkit-border-top-right-radius: 5px;
+}
+
+div#header span.donate-img img{
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    vertical-align:text-top;
+    margin-left: 10px;
+    margin-top: -5px;
 }
 
 
@@ -306,4 +326,30 @@ padding-bottom: 20px;
 div.console {
 padding: 10px;
 font: normal 12px courier,monospace;
+}
+
+/***********************/
+/* DONATE SECTION */
+
+div#donate {
+   width: 800px;
+#    height: 114px;
+   position: relative;
+//   background: #aaaaaa;
+margin-left:auto;
+margin-right:auto;
+}
+
+div#donate-bitcoin {
+margin-left:auto;
+margin-right:auto;
+    width: 315px;
+    height: 114px;
+    position: relative;
+//    border-bottom: 1px solid #000000;
+//    border-top: 1px solid #000000;
+//    padding-top: 10px;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
