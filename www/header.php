@@ -4,10 +4,13 @@
 
 <?php 
 $IODINE_URL='http://www.magictunnel.net/downloads/iodine-0.6.0-rc1-android.tar.gz';
-
 $IODINE_VANILLA='iodine-0.6.0-rc1';
 $IODINE_VANILLA_ARCH="$IODINE_VANILLA.tar.gz";
 $IODINE_VANILLA_URL="http://www.magictunnel.net/downloads/$IODINE_VANILLA";
+
+$MT_VER='1.0.1';
+$MT_FILE="magictunnel-$MT_VER.apk";
+$MT_URL="/downloads/$MT_FILE";
 ?>
 
 

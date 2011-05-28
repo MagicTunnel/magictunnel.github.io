@@ -18,9 +18,9 @@ include('header.php');
 
   <div id="download">
     <div id="download-button">
-      <a href="downloads/magictunnel-1.0.0.apk"><img src="media/download.png"/></a>
+      <a href="<?php print "$MT_URL"; ?>"><img src="media/download.png"/></a>
       <div id="version-info">
-         V1.0.0 for Android 2.2
+  V<?php print "$MT_VER"; ?> for Android 2.2
       </div>
     </div>
     <div id="download-requirements">
