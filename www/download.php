@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MagicTunnel</title>
+<title>MagicTunnel - Download for Android</title>
 <style type="text/css">
   @import url(/stylesheet.css);
 </style>

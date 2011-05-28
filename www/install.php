@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MagicTunnel</title>
+<title>MagicTunnel - 3 steps to get DNS tunneling on your smartphone</title>
 <style type="text/css">
   @import url(/stylesheet.css);
 </style>

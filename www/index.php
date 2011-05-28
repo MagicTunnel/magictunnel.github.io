@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MagicTunnel</title>
+<title>MagicTunnel - A DNS tunneling client for your Android smartphone</title>
 <style type="text/css">
   @import url(/stylesheet.css);
 </style>
