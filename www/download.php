@@ -35,6 +35,18 @@ include('header.php');
     <h3>Installation</h3>
    <a href="install.php">Install instructions</a> for the client and the server detail how to get DNS tunneling up and running.
 
+   <hr/>
+
+   <h3>Change Log</h3>
+   <p>
+   <b>1.0.2: </b><br/>
+   Improved TUN driver detection (also look for <tt>/dev/tun</tt>).</li>
+   </p>
+
+   <p>
+   <b>1.0.1: </b><br/>
+   Initial release.
+   </p>
 
     </div>
 
