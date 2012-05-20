@@ -37,7 +37,7 @@ include('header.php');
   <p>
   <b>Rooting the phone</b>
   There are as many different procedures to root the phone as there
-  are phone models. There are two steps: unlocking the boot loader and
+  are phone models. These procedures usually consist of two steps: unlocking the boot loader and
   installing a "superuser" app from the <tt>adb</tt> shell.
   Please refer to the appropriate tutorials on the Web. 
     Below are some links. Please be aware that
@@ -89,7 +89,7 @@ include('header.php');
     <a href="http://www.no-ip.com">no-ip.com</a> to get one for free. If you have a dynamic IP, these
     services provide you with an application that updates the domain
     whenever the IP address changes. In the following, we assume that
-    your computer is identified with
+    your computer is identified by
     <b>mycomputer.dyndns.org</b>.</li>
 
     <li><b>Get a domain name for the tunnel.</b>
@@ -97,15 +97,15 @@ include('header.php');
     assume that you created a subdomain <b>mytunnel.mydomain.org</b>.
     After you created it, point its NS entry to
     <b>mycomputer.dyndns.org</b> that you set up above. This means
-    that all queries of the form asdfasdfasdwre.mytunnel.mydomain.org
+    that all queries of the form <tt>asdfasdfasdwre.mytunnel.mydomain.org</tt>
     will be forwarded to your own computer, on which you run the DNS
     tunneling server. </li>
   </ol>
 
   <h3>B.Installing the DNS server</h3>
   Once you obtained a domain, download, decompress, and compile the DNS
-  tunnel server iodine on your computer. We assume here that you run
-  Linux. The iodine server can also run on Windows.
+  tunnel server <tt>iodine</tt> on your computer. We assume here that you run
+  Linux. The <tt>iodine</tt> server can also run on Windows.
 
   <div class="console">
   $ wget <?php print $IODINE_VANILLA_URL; ?> <br/>
@@ -123,8 +123,9 @@ include('header.php');
   This command instructs the server to give to connected
   clients an IP address in the 192.168.233.1/24 range.
   <tt>iodined</tt> creates a network interface <tt>tap0</tt> through which
-  the Internet traffic will flow. To allow clients to communicate with
-  the server and browse the Internet, use the following commands.
+  the Internet traffic will flow. Depending on your setup, you may need to configure the
+  firewall to allow clients to communicate with
+  the server and browse the Internet. The following commands show how to do that on Linux.
   We assume the network card connected to the Internet is <tt>eth0</tt>.
 
   <div class="console">

@@ -48,7 +48,7 @@ For DNS tunneling to work, the network provider must not filter DNS queries to e
      <div id="main-schema">
        <div id="schema-1-pda">
          <h3>Android Phone</h3>
-         Wraps Internet traffic into DNS queries with the MagicTunnel client 
+         MagicTunnel wraps Internet traffic into DNS queries
        </div>
        <div id="schema-2-ispserver">
          <h3>Network Provider</h3>
