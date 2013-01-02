@@ -135,12 +135,11 @@ include('header.php');
     <br/>
   # Allow the connected clients to talk to the server machine <br/>
   $ sudo iptables -A INPUT -i tap0 -j ACCEPT <br/>
-  $ sudo iptables -A OUPUT -o tap0 -j ACCEPT <br/>
+  $ sudo iptables -A OUTPUT -o tap0 -j ACCEPT <br/>
     <br/>
   # Forward Internet traffic <br/>
-  $ sudo iptables -A FORWARD -i tap0 -o eth0 --state  NEW,ESTABLISHED,RELATED -j ACCEPT <br/>
-  $ sudo iptables -A FORWARD -i eth0 -o tap0 -m state --state
-  ESTABLISHED,RELATED -j ACCEPT  <br/>
+  $ sudo iptables -A FORWARD -i tap0 -o eth0 -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT <br/>
+  $ sudo iptables -A FORWARD -i eth0 -o tap0 -m state --state ESTABLISHED,RELATED -j ACCEPT  <br/>
   $ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE <br/>
   </div>
 
