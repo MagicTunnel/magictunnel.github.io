@@ -1,10 +1,10 @@
+<!DOCTYPE HTML>
+
 <html>
-<head>
-<title>MagicTunnel - Download for Android</title>
-<style type="text/css">
-  @import url(/stylesheet.css);
-</style>
-</head>
+<?php 
+$SITE_SUBTITLE='Download for Android';
+include('head.php');
+?>
 
 <body>
 

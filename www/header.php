@@ -18,7 +18,20 @@ $MT_URL="/downloads/$MT_FILE";
 <li class="<?php  if ($SITE_TAB == "download") { print 'selected';}?>"><a href="download.php"><span>Download</span></a></li>
 <li class="<?php  if ($SITE_TAB == "install") { print 'selected';}?>"><a href="install.php"><span>Installation</span></a></li>
 <li class="<?php  if ($SITE_TAB == "faq") { print 'selected';}?>"><a href="faq.php"><span>FAQ</span></a></li>
-<li id="donate" class="<?php  if ($SITE_TAB == "donate") { print 'selected';}?>"><a href="donate.php"><span class="donate-img">Donate<img src="media/bc.png"/></span></a></li>
+<!--<li id="donate" class="<?php  if ($SITE_TAB == "donate") { print 'selected';}?>"><a href="donate.php"><span class="donate-img">Donate<img src="media/bc.png"/></span></a></li>-->
+
 </ul>
+
+<div id="donate-hdr">
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" 
+href="http://www.magictunnel.net/"></a>
+<noscript><a href="http://flattr.com/thing/688067/MagicTunnel" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" 
+title="Flattr this" border="0" /></a></noscript>
+
+</div>
+
 </div>
 </div>
+
+

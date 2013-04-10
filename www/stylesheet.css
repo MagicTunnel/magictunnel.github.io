@@ -84,9 +84,15 @@ div#header li {
 	padding: 0;
 }
 
-div#header li#donate {
-    position: absolute;
-    right: 0;
+div#header #donate-hdr {
+        position: absolute;
+        bottom: 0;
+        left: 631px;
+        height: 25px;
+        margin: 11px auto 0;
+        padding: 0;
+        overflow: hidden;
+        clear: both;
 }
 
 div#header li.donate-selected {
@@ -192,7 +198,7 @@ h1.title {
 
 /* Put a border around all containers for debugging */
 div#content-container div {
- //border: 1px solid #FF00FF;
+ /*border: 1px solid #FF00FF;*/
 }
 
 div#schema {

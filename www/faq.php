@@ -1,10 +1,10 @@
+<!DOCTYPE HTML>
+
 <html>
-<head>
-<title>MagicTunnel - Frequently asked questions</title>
-<style type="text/css">
-  @import url(/stylesheet.css);
-</style>
-</head>
+<?php 
+$SITE_SUBTITLE='Frequently asked questions';
+include('head.php');
+?>
 
 <body>
 

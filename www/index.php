@@ -1,10 +1,10 @@
+<!DOCTYPE HTML>
+
 <html>
-<head>
-<title>MagicTunnel - A DNS tunneling client for your Android smartphone</title>
-<style type="text/css">
-  @import url(/stylesheet.css);
-</style>
-</head>
+<?php 
+$SITE_SUBTITLE='A DNS tunneling client for your Android smartphone';
+include('head.php');
+?>
 
 <body>
 
