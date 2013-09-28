@@ -1,14 +1,14 @@
+<!DOCTYPE HTML>
+
 <html>
-<head>
-<title>MagicTunnel - 3 steps to get DNS tunneling on your smartphone</title>
-<style type="text/css">
-  @import url(/stylesheet.css);
-</style>
-</head>
+<?php
+$SITE_SUBTITLE='Get DNS tunneling on your smartphone in 3 steps';
+include('head.php');
+?>
 
 <body>
 
-<?php 
+<?php
 $SITE_TAB='install';
 include('header.php');
 ?>
