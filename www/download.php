@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 
 <html>
-<?php 
+<?php
 $SITE_SUBTITLE='Download for Android';
 include('head.php');
 ?>
 
 <body>
 
-<?php 
+<?php
 $SITE_TAB='download';
 include('header.php');
 ?>
@@ -54,7 +54,7 @@ include('header.php');
 
     </div>
 
-   
+
   </div>
 
   </div>

@@ -31,7 +31,7 @@ include('header.php');
   <a href="http://www.cyanogenmod.com/">CyanogenMod</a> or a <a
   href="http://android.modaco.com/">MoDaCo custom ROM</a>.</em> In
   this case, skip to the next section.
-    
+
   </p>
 
   <p>
@@ -39,7 +39,7 @@ include('header.php');
   There are as many different procedures to root the phone as there
   are phone models. These procedures usually consist of two steps: unlocking the boot loader and
   installing a "superuser" app from the <tt>adb</tt> shell.
-  Please refer to the appropriate tutorials on the Web. 
+  Please refer to the appropriate tutorials on the Web.
     Below are some links. Please be aware that
   rooting the phone can void your warranty or break it if something
   goes wrong. Do it at your own risk.
@@ -82,7 +82,7 @@ include('header.php');
   control. There are many Web sites that propose them for free.
 
   <h3>A.Configuring domain names</h3>
-  
+
   <ol id="list">
     <li><b>Get a domain name for your computer and set it to point to
     the IP address of your computer.</b> You can use <a href="http://www.dyndns.org">dyndns.org</a> or
@@ -143,7 +143,7 @@ include('header.php');
   $ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE <br/>
   </div>
 
-  
+
   <h1>3. Installing the MagicTunnel App</h1>
 <img src="media/mt_components.png" align="right" style="margin-left: 30px"/>
   <p>

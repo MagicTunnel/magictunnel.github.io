@@ -10,7 +10,7 @@
 <script type="text/javascript">
 /* <![CDATA[ */
     (function() {
-        var s = document.createElement('script'), t = 
+        var s = document.createElement('script'), t =
 document.getElementsByTagName('script')[0];
         s.type = 'text/javascript';
         s.async = true;
@@ -37,7 +37,7 @@ include('header.php');
 <a href="http://www.bitcoin.org/"><img src="media/bc_logo.png" height="32" border="0"/></a>
 </p>
 <p align="center">
-Find MagicTunnel useful? Donate bitcoins to: 
+Find MagicTunnel useful? Donate bitcoins to:
 <tt><b>16WKXyqGLu8W9iukDpbYxP9wDKMgJNULfM</b></tt>
 </p>
 
@@ -48,10 +48,10 @@ Check out <a href="http://www.bitcoin.org">http://www.bitcoin.org</a> to learn h
 <div>
 <p align="center">
 
-<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" 
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
 href="http://www.magictunnel.net/"></a>
 <noscript><a href="http://flattr.com/thing/688067/MagicTunnel" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" 
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this"
 title="Flattr this" border="0" /></a></noscript>
 </p>
 

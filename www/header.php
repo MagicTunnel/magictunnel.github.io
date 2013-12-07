@@ -2,7 +2,7 @@
 <div id="header-container">
 <ul>
 
-<?php 
+<?php
 $IODINE_URL='http://www.magictunnel.net/downloads/iodine-0.6.0-rc1-android.tar.gz';
 $IODINE_VANILLA='iodine-0.6.0-rc1';
 $IODINE_VANILLA_ARCH="$IODINE_VANILLA.tar.gz";
@@ -23,10 +23,10 @@ $MT_URL="/downloads/$MT_FILE";
 </ul>
 
 <div id="donate-hdr">
-<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" 
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
 href="http://www.magictunnel.net/"></a>
 <noscript><a href="http://flattr.com/thing/688067/MagicTunnel" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" 
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this"
 title="Flattr this" border="0" /></a></noscript>
 
 </div>
