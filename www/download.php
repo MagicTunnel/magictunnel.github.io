@@ -39,17 +39,8 @@ include('header.php');
 
    <h3>Change Log</h3>
    <p>
-   <b>1.0.3: </b><br/>
-   Added manual settings to speed up the connection.
-   </p>
-   <p>
-   <b>1.0.2: </b><br/>
-   Improved TUN driver detection (also look for <tt>/dev/tun</tt>).
-   </p>
-
-   <p>
-   <b>1.0.1: </b><br/>
-   Initial release.
+   <b>1.0.4 (7 Dec 2013)</b><br/>
+   More robust permission setting for iodine installation.
    </p>
 
     </div>
