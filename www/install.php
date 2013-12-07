@@ -157,7 +157,9 @@ include('header.php');
   If you see the
   screen on the right when you start MagicTunnel, some components
   are missing. Refer to the first section on how to install them, then
-  start MagicTunnel again.
+  start MagicTunnel again.<br/>
+  <b>Note:</b> <i> on some phones, you may also need to install BusyBox if
+  installation fails.</i>
   </p>
 
   <p>
