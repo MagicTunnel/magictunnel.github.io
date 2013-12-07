@@ -30,8 +30,12 @@ include('header.php');
   to provide transparent connectivity to all applications.
 
       <h3>Source code</h3>
+   <p>
    MagicTunnel uses a modified <a href="http://code.kryo.se/iodine/">Iodine</a> DNS tunnel client. Source code for the client and the server can be found <a href="<?php print $IODINE_URL; ?>">here</a>. See below for setup instructions.
-
+   </p>
+   <p>
+   You may download MagicTunnel's <a href="https://github.com/vitalych/MagicTunnel">source code</a> on GitHub. Feel free to submit improvements!
+   </p>
     <h3>Installation</h3>
    <a href="install.php">Install instructions</a> for the client and the server detail how to get DNS tunneling up and running.
 
@@ -40,7 +44,8 @@ include('header.php');
    <h3>Change Log</h3>
    <p>
    <b>1.0.4 (7 Dec 2013)</b><br/>
-   More robust permission setting for iodine installation.
+   More robust permission setting for iodine installation
+   (<a href="https://github.com/vitalych/MagicTunnel/pull/11">more info</a>).
    </p>
 
     </div>
