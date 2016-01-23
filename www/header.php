@@ -23,11 +23,16 @@ $MT_URL="/downloads/$MT_FILE";
 </ul>
 
 <div id="donate-hdr">
+
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
 href="http://www.magictunnel.net/"></a>
-<noscript><a href="http://flattr.com/thing/688067/MagicTunnel" target="_blank">
-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this"
-title="Flattr this" border="0" /></a></noscript>
+
+<noscript>
+    <a href="http://flattr.com/thing/688067/MagicTunnel" target="_blank">
+        <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this"
+        title="Flattr this" border="0" />
+    </a>
+</noscript>
 
 </div>
 

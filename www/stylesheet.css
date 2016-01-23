@@ -1,87 +1,87 @@
 html {
-	overflow: auto;
-	margin:0;
-	padding:0;
-	height:100%;
-	background: #000000;
-	font: normal 12px helvetica,arial,sans-serif;
+    overflow: auto;
+    margin:0;
+    padding:0;
+    height:100%;
+    background: #000000;
+    font: normal 12px helvetica,arial,sans-serif;
 }
 body {
-	font-family: "Helvetica","Arial",sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-	background: #ffffff;
-	color: #303030;
-	margin: 0 0 1px;
-	padding: 0;
-	min-height: 100%;
-	text-align: justify;
-	line-height: normal;
-	font-variant: normal;
-	font-style: normal;
-	font-size-adjust: none;
+    font-family: "Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background: #ffffff;
+    color: #303030;
+    margin: 0 0 1px;
+    padding: 0;
+    min-height: 100%;
+    text-align: justify;
+    line-height: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size-adjust: none;
 }
 
 div#header {
-	background-color:#2e419c;
-	height: 115px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
+    background-color:#2e419c;
+    height: 115px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
 }
 
 div#header-container {
-	background: transparent url(/media/logo.png) no-repeat scroll left top;
-	background-color:#2e419c;
-	height: 115px;
-	width: 800px;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
+    background: transparent url(/media/logo.png) no-repeat scroll left top;
+    background-color:#2e419c;
+    height: 115px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
 }
 
 div#header h1 {
-	padding: 25px 0 0 25px;
-	margin: 0;
+    padding: 25px 0 0 25px;
+    margin: 0;
 }
 div#header h1 a {
-	display: block;
-	height: 70px;
-	width: 300px;
+    display: block;
+    height: 70px;
+    width: 300px;
 }
 div#header h1 a span {
-	display: none;
+    display: none;
 }
 
 
 div#header ul {
-	position: absolute;
-	bottom: 0;
-	left: 131px;
-	height: 30px;
-	list-style: none;
-	list-style-image: none;
-	list-style-position: outside;
-	list-style-type: none;
-	margin: 11px auto 0;
-	padding: 0;
-	overflow: hidden;
-	clear: both;
-	width: 669px;
+    position: absolute;
+    bottom: 0;
+    left: 131px;
+    height: 30px;
+    list-style: none;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 11px auto 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    width: 669px;
 }
 div#header li {
-	-x-system-font: none;
-	float: left;
-	text-align: center;
-	font-weight: bold;
-	font-size-adjust: none;
-	font-stretch: normal;
-	font-variant: normal;
-	font-style: normal;
-	font-size: 14px;
-	line-height: normal;
-	padding: 0;
+    -x-system-font: none;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    padding: 0;
 }
 
 div#header #donate-hdr {
@@ -101,35 +101,35 @@ div#header li.donate-selected {
 }
 
 div#header li a:hover {
-	background: #aaaaaa;
-	color: #000000;
+    background: #aaaaaa;
+    color: #000000;
 }
 div#header li a:hover span {
-	background: #aaaaaa;
-	color: #000000;
+    background: #aaaaaa;
+    color: #000000;
 }
 
 div#header li.selected a {
-	background: #ffffff;
-	color: #000000;
+    background: #ffffff;
+    color: #000000;
 }
 div#header li.selected a span {
-	background: #ffffff;
-	color: #000000;
+    background: #ffffff;
+    color: #000000;
 }
 
 div#header li a {
-	cursor: pointer;
-	display: inline-block;
-	height: 30px;
-	margin-right: 10px;
-	padding-left: 0px;
-	text-decoration: none;
-	color: #ffffff;
-	-moz-border-radius-topleft: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	-webkit-border-top-right-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+    padding-left: 0px;
+    text-decoration: none;
+    color: #ffffff;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
 }
 
 div#header span.donate-img img{
@@ -142,15 +142,15 @@ div#header span.donate-img img{
 }
 
 
-div#header li a span {	
-	cursor: pointer;
-	display: inline-block;
-	height: 100%;
-	padding: 10px 10px 10px 10px;
-	-moz-border-radius-topleft: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	-webkit-border-top-right-radius: 5px;
+div#header li a span {
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
 }
 
 
@@ -165,20 +165,20 @@ h1 {
 /***********************/
 
 div#content {
-	position: relative;
-	background: #ffffff;
-	//min-height: 400px;
-	margin: 0 auto;
-	padding: 0;
-	overflow: hidden;
-	clear: both;
-	width: 100%;
+    position: relative;
+    background: #ffffff;
+    //min-height: 400px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
 }
 div#content-container {
-	width: 800px;
-	padding: 20px 50px;
-	margin: 0 auto;
-	position: relative;
+    width: 800px;
+    padding: 20px 50px;
+    margin: 0 auto;
+    position: relative;
 }
 
 /***********************/
@@ -193,7 +193,7 @@ div#punchline {
 }
 
 h1.title {
-    
+
 }
 
 /* Put a border around all containers for debugging */
@@ -223,13 +223,13 @@ div#left-schema {
 }
 
 div#left-schema ol{
-padding-left: 20px;
-padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 
 }
 
 div#left-schema li{
-padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 div#main-schema {
@@ -256,7 +256,7 @@ div#schema-1-pda {
 div#schema-2-ispserver {
     position:absolute;
     left:9px;
-    top:90px;
+    top:80px;
     width: 150px;
 }
 
@@ -272,11 +272,11 @@ div#schema-3-server {
 
 div#download {
    width: 800px;
-#    height: 114px;
-   position: relative;
-//   background: #aaaaaa;
-margin-left:auto;
-margin-right:auto;
+    //height: 114px;
+    position: relative;
+    //background: #aaaaaa;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 div#download-button {
@@ -285,9 +285,9 @@ margin-right:auto;
     width: 315px;
     height: 114px;
     position: relative;
-//    border-bottom: 1px solid #000000;
-//    border-top: 1px solid #000000;
-//    padding-top: 10px;
+    //border-bottom: 1px solid #000000;
+    //border-top: 1px solid #000000;
+    //padding-top: 10px;
 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -310,7 +310,7 @@ div#version-info {
     position:absolute;
     left:115px;
     top:80px;
-//    width: 300px;
+    //width: 300px;
 }
 
 div#download-button img {
@@ -318,43 +318,43 @@ div#download-button img {
 }
 
 #download-button:hover {
-	background: #2e419c;
-	color: #000000;
+    background: #2e419c;
+    color: #000000;
 }
 
 /***********************/
 /* INSTALL SECTION */
 
 ol#list li{
-padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 div.console {
-padding: 10px;
-font: normal 12px courier,monospace;
+    padding: 10px;
+    font: normal 12px courier,monospace;
 }
 
 /***********************/
 /* DONATE SECTION */
 
 div#donate {
-   width: 800px;
-#    height: 114px;
-   position: relative;
-//   background: #aaaaaa;
-margin-left:auto;
-margin-right:auto;
+    width: 800px;
+    //height: 114px;
+    position: relative;
+    //background: #aaaaaa;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 div#donate-bitcoin {
-margin-left:auto;
-margin-right:auto;
+    margin-left:auto;
+    margin-right:auto;
     width: 315px;
     height: 114px;
     position: relative;
-//    border-bottom: 1px solid #000000;
-//    border-top: 1px solid #000000;
-//    padding-top: 10px;
+    //border-bottom: 1px solid #000000;
+    //border-top: 1px solid #000000;
+    //padding-top: 10px;
 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
