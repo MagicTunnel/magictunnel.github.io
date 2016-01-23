@@ -36,7 +36,7 @@ include('header.php');
                     See below for setup instructions.
                 </p>
                 <p>
-                    You may download MagicTunnel's <a href="https://github.com/vitalych/MagicTunnel">source code</a> on GitHub.
+                    You may download MagicTunnel's <a href="https://github.com/MagicTunnel">source code</a> on GitHub.
                     Feel free to submit improvements!
                 </p>
 
