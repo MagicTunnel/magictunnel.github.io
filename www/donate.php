@@ -37,7 +37,7 @@ include('header.php');
                 </p>
                 <p align="center">
                     Find MagicTunnel useful? Donate bitcoins to:
-                    <tt><b>16WKXyqGLu8W9iukDpbYxP9wDKMgJNULfM</b></tt>
+                    <tt><b>1A2LZXi6W6mkJ3kzMXPBN774CFGRDidBKe</b></tt>
                 </p>
 
                 <p align="center">

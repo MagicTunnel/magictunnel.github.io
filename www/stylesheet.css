@@ -192,6 +192,20 @@ div#punchline {
     padding-top: 10px;
 }
 
+div#donatefooter {
+    text-align: center;
+    vertical-align: top;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   background: #f0fff0;
+}
+
 h1.title {
 
 }
