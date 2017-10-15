@@ -1,39 +1,14 @@
-<!DOCTYPE HTML>
-
-<html>
-<head>
-<title>MagicTunnel - Donate!</title>
-<style type="text/css">
-  @import url(/stylesheet.css);
-</style>
-
-<script type="text/javascript">
-/* <![CDATA[ */
-    (function() {
-        var s = document.createElement('script'), t =
-document.getElementsByTagName('script')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        t.parentNode.insertBefore(s, t);
-    })();
-/* ]]> */</script>
-
-</head>
-
-<body>
-
-<?php
-$SITE_TAB='donate';
-include('header.php');
-?>
+---
+layout: default
+title: Donate
+---
 
 <div id="content">
     <div id="content-container">
         <div id="donate">
             <div id="donate-bitcoin">
                 <p align="center">
-                    <a href="http://www.bitcoin.org/"><img src="media/bc_logo.png" height="32" border="0"/></a>
+                    <a href="http://www.bitcoin.org/"><img src="/media/bc_logo.png" height="32" border="0"/></a>
                 </p>
                 <p align="center">
                     Find MagicTunnel useful? Donate bitcoins to:
@@ -57,6 +32,3 @@ include('header.php');
         </div>
     </div>
 </div>
-
-</body>
-</html>

@@ -1,0 +1,8 @@
+iodine:
+  name: iodine-0.6.0-rc1-android
+  archive: iodine-0.6.0-rc1-android.tar.gz
+  url: /downloads/iodine-0.6.0-rc1-android.tar.gz
+
+mt:
+  ver: 1.0.4
+  url: /downloads/magictunnel-1.0.4.apk
